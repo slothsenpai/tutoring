@@ -7,7 +7,6 @@ public class CardGame {
   // Constructor method
   public CardGame(String providedName) {
     name = providedName;
-
   }
 
   public void greeting() {
@@ -27,5 +26,21 @@ public class CardGame {
     health = newHealth;
   }
 
-  // Finish adding getter and setter methods here (getDamageMultiplier, setDamageMultiplier, etc...)
+  public int getAscencionLevel() {
+    return ascencionLevel;
+  }
+
+  public void setAscencionLevel(int ascencionLevel) {
+    this.ascencionLevel = ascencionLevel;
+  }
+
+  public float getDamageMultiplier() {
+    return damageMultiplier;
+  }
+
+  public void setDamageMultiplier(float damageMultiplier) {
+    this.damageMultiplier = damageMultiplier;
+  }
+
+
 }

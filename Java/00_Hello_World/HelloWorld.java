@@ -14,5 +14,6 @@ public class HelloWorld {
     } catch(InputMismatchException ime) {
       System.out.println("You didn't enter a number!");
     }
+    scan.close();
   }
 }
